@@ -1,0 +1,34 @@
+name: Report a problem
+description: Say what you were doing and what went wrong.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The quickest way to file this is from the app: Help ▸ Report a Problem fills in the details for you.
+
+        Issues are public. Leave out your data, project contents and keys.
+  - type: textarea
+    id: doing
+    attributes:
+      label: What I was doing
+      placeholder: Running a two-sample t test on my survey data in Analyze…
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened, and what I expected
+      placeholder: The result card never appeared; I expected…
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: This Mac and this build
+      description: The app adds these details for you. If you're filing from the website, the version is in the app's Settings.
+      placeholder: |
+        - CodeSplash: 1.0.0
+        - System: macOS 15.1 (aarch64)
+    validations:
+      required: true
