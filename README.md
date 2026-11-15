@@ -1,6 +1,6 @@
 # CodeSplash Analytics
 
-CodeSplash Analytics is a local-first data analytics app for your Mac. Your data stays on your machine. Bring a file, then explore it, clean it, test it, model it and report on it in one place, in Python and R, with the code for every step there to read.
+CodeSplash Analytics is a local-first data analytics app for your Mac. Projects stay on your Mac. Bring a file, then explore it, clean it, test it, model it and report on it in one place, in Python and R, with the code for every step there to read.
 
 **[Download it from analytics.codesplash.ai](https://analytics.codesplash.ai/download)**
 
@@ -10,7 +10,7 @@ macOS 14 or later on Apple Silicon. Windows and Linux are planned.
 
 - **Projects and data:** import CSV, Excel, Parquet, JSON and SPSS, Stata or SAS files, and work in a fast grid with SQL tabs beside it.
 - **Insights and charts:** profile a dataset and see what needs attention, then pick from the Chart Lab's recipes and export the Python or R code behind each chart.
-- **Statistics:** generated dialogs, result cards with APA text written from the numbers, assumption checks and a test chooser. Each method runs in both Python and R.
+- **Statistics:** generated dialogs, result cards with APA text written from the numbers, assumption checks and a test chooser. 284 of 286 methods run in both Python and R.
 - **Prepare:** data-preparation steps compiled to SQL, pandas and dplyr, with before and after previews.
 - **Machine learning:** experiments, tuning, leaderboards, explanations, forecasting, clustering and a model registry.
 - **Studios:** causal inference, experiments, quality and design of experiments, scenarios and optimization, fairness, synthetic data, meta-analysis and spatial analysis.
